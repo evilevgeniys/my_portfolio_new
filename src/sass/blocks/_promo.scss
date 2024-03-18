@@ -3,7 +3,7 @@
 	position: relative;
 	color: $lightmode-text-color;
 	background-color: $bg-lightmode-color;
-	padding-top: 230px;
+	padding-top: 120px;
     z-index: 1;
     .container {
         display: flex;
@@ -11,7 +11,7 @@
     }
 	&__img {
 		position: absolute;
-		right: 120px;
+		right: 200px;
 		bottom: 0;
         z-index: 2;
 		img {
@@ -35,16 +35,17 @@
 		font-weight: 400;
         font-style: normal;
 		font-size: 55px;
-		line-height: 67px;
 		color: $lightmode-text-color;
         span {
             color: $lightmode-hover-text-color;
-            text-shadow: -3px -3px 0 #7A7A7A;
+            text-shadow: -4px -4px 5px #7A7A7A;
         }
 	}
     &__social {
         display: flex;
         justify-content: flex-start;
+        position: fixed;
+        bottom: 35px;
         &-link {
             margin-right: 45px;
         }
