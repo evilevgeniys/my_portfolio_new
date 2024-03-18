@@ -1,0 +1,56 @@
+.promo {
+	height: 100vh;
+	position: relative;
+	color: $lightmode-text-color;
+	background-color: $bg-lightmode-color;
+	padding-top: 230px;
+    z-index: 1;
+    .container {
+        display: flex;
+        justify-content: space-between;
+    }
+	&__img {
+		position: absolute;
+		right: 120px;
+		bottom: 0;
+        z-index: 2;
+		img {
+            height: 80vh;
+		}
+	}
+	&__subtitle {
+		color: $lightmode-text-color;
+		padding-bottom: 100px;
+
+		&-eng {
+			font-family: "Inter", sans-serif;
+			font-weight: 400;
+			span {
+				color: $lightmode-hover-text-color;
+			}
+		}
+	}
+
+	&__title {
+		font-weight: 400;
+        font-style: normal;
+		font-size: 55px;
+		line-height: 67px;
+		color: $lightmode-text-color;
+        span {
+            color: $lightmode-hover-text-color;
+            text-shadow: -3px -3px 0 #7A7A7A;
+        }
+	}
+    &__social {
+        display: flex;
+        justify-content: flex-start;
+        &-link {
+            margin-right: 45px;
+        }
+    }
+    &__descr {
+        width: 600px;
+    }
+}
+
